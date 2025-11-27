@@ -1,0 +1,13 @@
+Example: If you allocate 50 GiB total for CryptPad persistent storage, you might do:
+
+Datastore: ~ 20 GiB (40%)
+
+Blob: ~ 15–17 GiB (30–35%)
+
+Block: ~ 8–10 GiB (16–20%)
+
+Archive / logs: ~ 5-7 GiB (10–14%)
+
+
+
+A reasonable starting prorata (in %) is roughly 35–40% for datastore, 30–35% for blob, 15–20% for block, and 10–15% for archive / logs, but you should adapt based on expected usage and monitor real usage.

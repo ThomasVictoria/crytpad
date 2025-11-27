@@ -1,0 +1,6 @@
+dependencies:
+- name: cryptpad
+  repository: oci://ghcr.io/cryptpad/helm
+  version: 0.0.20
+digest: sha256:3c1a22ae83e4feb1dc2afb4ccde4be8b9d40cb34c56977dadaf3cb1a3d0a77cf
+generated: "2025-11-18T11:16:45.709245+01:00"
